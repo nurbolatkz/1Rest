@@ -1,0 +1,39 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+
+#myCarousel, .carousel-inner, .container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel {
+    margin-bottom: 3rem;
+}
+
+
+.image-slide{
+    position: relative;
+    width: 100%; 
+    height: 100%;
+
+}
+
+.carousel-caption {
+    position: relative;
+    margin: 0px;
+    margin-left: -25%;
+    background-color: black;
+}
