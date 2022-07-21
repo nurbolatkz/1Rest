@@ -12,28 +12,45 @@
     }
   }
 
-
-#myCarousel, .carousel-inner, .container{
-    position: relative;
-    width: 100%;
-    height: 100%;
+.carousel-item img {
+  width:100%; 
+  height: 500px !important;
 }
 
-.carousel {
-    margin-bottom: 3rem;
+.filter_restaurants {
+  width: 80%;
+  margin: 2% 10%;
+  height: 65px;
+  background-color: #447285;
+  border-radius: 30px;
 }
 
-
-.image-slide{
-    position: relative;
-    width: 100%; 
-    height: 100%;
-
+.filter_restaurants ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #8a7474;
 }
 
-.carousel-caption {
-    position: relative;
-    margin: 0px;
-    margin-left: -25%;
-    background-color: black;
+.filter_restaurants ul li {
+  float: left;
+}
+
+.filter_restaurants ul li a {
+  display: block;
+  color:#080808;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.filter_restaurants ul li a:hover {
+  border-radius: 15px;
+  background-color: aliceblue;
+}
+
+.sort_by_elements ul li {
+  float: right;
 }
