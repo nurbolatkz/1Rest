@@ -54,3 +54,8 @@
 .sort_by_elements ul li {
   float: right;
 }
+
+.discounts .card img, .bestsellers .card img {
+  width: 100%;
+  height: 200px;
+}
